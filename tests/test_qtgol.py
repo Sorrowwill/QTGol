@@ -14,4 +14,4 @@ def test_hello(qtbot: QtBot):
 
     qtbot.mouseClick(widget.button, QtCore.Qt.LeftButton)
 
-    assert widget.text.text() in ["Hallo Welt", "Hei maailma", "Hola Mundo", "Привет мир"]
+    assert widget.text.text() in ["Hallo Welt", "Привет мир"]
