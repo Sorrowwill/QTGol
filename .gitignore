@@ -1,0 +1,8 @@
+# coverage results
+.coverage
+
+# local py version
+.python-version
+
+# compiled files
+__pycache__
